@@ -4,5 +4,9 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  api_base: {
+    apiBase: "http://latestkhabar.in:3000",
+    apiPath: "api/v1",
+  }
 };
