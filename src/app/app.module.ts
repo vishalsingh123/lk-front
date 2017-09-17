@@ -25,7 +25,7 @@ import { HlatestComponent } from './news/hindi/hlatest/hlatest.component';
 		HlatestComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({appId: 'lk-front'}),
     AppRoutingModule,
 		HttpModule,
 		BaseModule
